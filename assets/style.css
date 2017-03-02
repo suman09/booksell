@@ -13,7 +13,7 @@ padding: 0 400px;
 #homepage{
   background: url("https://images.pexels.com/photos/300412/pexels-photo-300412.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-size: cover;
-height: 1000px;
+height: 700px;
 }
  .fa-cart-plus{
 font-size: 27px;
@@ -71,33 +71,60 @@ color: black;
     cursor: pointer;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.aboutus{
+text-align: justify;
+margin: 0 60px;
+margin-top:30px;
+font-size:15px;
+}
+.footsocial{
+  margin-top:15px;
+  font-size: 25px;
+  color: grey;
+}
+.fa-youtube-square:hover
+{
+  color: #cc181e;
+}
+.fa-facebook-official:hover{
+color: #3b5998;
+}
+.fa-linkedin-square:hover{
+color:  #0077B5;
+}
+.contactus{
+  color: grey;
+  float: right;
+}
+#Aboutus{
+  margin-bottom: 200px;
+}
+#howitworks{
+  margin: 120px;
+}
+img{
+  width:450px;
+  height: 350px;
+   z-index:-1;
+
+
+}
+.sell{
+  margin-left: 100px;
 }
 
-.dropdown-content {
-    display: none;
-    position:relative;;
-    background-color:white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+h1{
+text-align:center;
+ margin:60px 0px;
+color:#337ab7;
 }
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #337ab7;
+.buybutton, .sellbutton{
+  margin-left: 190px;
+  width:70px;
+  height:40px;
+  font-size: 20px;
+ z-index:100;
+ display: inline-block;
+position: absolute;
+margin-top: 180px;
 }

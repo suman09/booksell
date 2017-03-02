@@ -22,12 +22,12 @@
   <div class="container-fluid">
 
     <ul class="nav navbar-nav navbar-left">
-          <li>  <a href="#"><i class="fa fa-book" aria-hidden="true"></i></a></li>
+          <li>  <a href="index.html"><i class="fa fa-book" aria-hidden="true"></i></a></li>
         </ul>
 <ul class="nav navbar-nav  navbarlinks">
   <li><a href="#">Buy book</a></li>
   <li><a href="#">Sell book</a></li>
-  <li><a href="#">About us</a></li>
+  <li><a href="Aboutus">About us</a></li>
 </ul>
 <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
@@ -41,43 +41,50 @@
     <div class="row">
         <section id="homepage">
 <div class="box">
-  <div  class=" col-md-6 btn btn-primary">
+  <div  class=" col-md-6 btn btn-primary" >
 
-        <h3 class="btn-title">Select By Name</h3>
+        <h3 class="btn-title" id="first" >Select By Name</h3>
 
     </div>
-    <div  class=" col-md-6 btn btn2 btn-default">
-          <h3 class="btn-title2">Select By Course</h3>
+    <div  class=" col-md-6 btn btn2 btn-default" >
+          <h3 class="btn-title2" id="second" >Select By Course</h3>
       </div>
       <div class="col-md-12">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search&hellip;">
-            <span class="input-group-btn">
-                <button type="button" class="btn btn-default">Go</button>
-            </span>
+        <div class="input-group" id="sel_name">
+
         </div></div>
 
         <div class="dropdown col-md-5">
-   <button class="dropbtn">Semester</button>
-   <div class="dropdown-content">
-     <a href="#">first</a>
-     <a href="#">second</a>
-     <a href="#">Third</a>
-     <a href="#">fourth</a>
-     <a href="#">fifth</a>
-     <a href="#">sixth</a>
-     <a href="#">seventh</a>
-     <a href="#">Eighth</a>
 
-   </div></div>
+          <select class="selectpicker  dropbtn">
+        <option    value="" disabled selected hidden>
+Semester
+        </option>
+          <option >first</option>
+          <option>second</option>
+            <option>Third</option>
+            <option>fourth</option>
+            <option>fifth</option>
+            <option>sixth</option>
+            <option>seventh</option>
+            <option>Eighth</option>
+        </select>
+</div>
      <div class="dropdown col-md-5">
-   <button class="dropbtn">Course</button>
-   <div class="dropdown-content">
-     <a href="#">CSE</a>
-     <a href="#">ECE</a>
-     <a href="#">ME</a>
-     <a href="#">CE</a>
-   </div></div>
+       <select class="selectpicker  dropbtn">
+     <option    value="" disabled selected hidden>
+ Course
+     </option>
+       <option >ECE</option>
+       <option>second</option>
+         <option>Third</option>
+         <option>fourth</option>
+         <option>fifth</option>
+         <option>sixth</option>
+         <option>seventh</option>
+         <option>Eighth</option>
+     </select>
+  </div>
 <div>
   <span class="input-group-btncol-md-1 ">
       <button type="button" class="btn btn-default" style="margin-top:10px;">Go</button>
@@ -86,7 +93,64 @@
 </div>
   </section></div>
 <!--- home page content ends----->
+<!--how it works-->
+<section id="howitworks">
+  <h1>How It Works</h1>
+<div class="col-md-5 buy">
+  <button class="buybutton">Buy</button>
+    <img src="assets/images/buy.jpeg" /><br />
+    <small>You can buy books of great authors</small>
+</div>
+
+<div class="col-md-5 sell">
+  <button class="sellbutton">sell</button>
+  <img src="assets/images/sell.jpeg" /><br />
+  <small>You can sell Your stuff</small>
+</div>
+</section>
+<!-- how it works section ends-->
+<!--Aboutus starts-->
+<div class="col-md-12">
+  <section id="Aboutus">
+    <h1 >About Us</h1>
+    <p class="aboutus">
+    The Book Store is one of the leading book store of Engineering books in India. It has a wealth of books with considerable strengths in  Science & Technology. You name a Book we have  Books... any subject. It aims to be the book store of choice for Engineers.
+    <br /><br />
+    The Book Store is Asia's largest showroom of Engineering books, with a record 99,000 titles on display. Spread over 20,000-sq ft., the five-floor showroom in Daryaganj retails books on all branches of  science
+    <br /><br />
+    TBS's commitment to quality has always been core to its culture and the company is today counted as a leading name in bookstores. It has been quick to embrace modern methods of distribution, while building on its heritage and outstanding history.
+    </p>
+  </section>
+</div>
+
+
+<!--aboutus ends-->
     </div>
-    <script></script>
+    <!--footer starts-->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="footsocial">
+            <div class="col-md-3">
+              <i class="fa fa-youtube-square" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-3">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+          </div>
+
+
+        </div>
+        <ul class="nav navbar-nav col-md-4 contactus" style="float:right; color:grey; padding-left:50px; margin:10px 0px;" >
+          <li>Contact us: thebookstore@xyz.com</li><br />
+        <li>011-4567890</li><br />
+            <li>+91-9012345678</li>
+        </ul>
+      </div>
+    </nav>
+    <!--footer ends-->
 </body>
 </html>
